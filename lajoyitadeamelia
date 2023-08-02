@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>La Joyita de Amelia</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+    crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="assets/css/style.css">
+
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+      <img src="assets/imagenes/141800450_1722547984575228_1023372814871894808_n.png" alt="" class="img-fluid"
+        width="60">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link " aria-current="page" href="#">Productos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Sobre mí</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Cotiza aquí</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <div class="principal">
+    <h1 class="titulo">
+      La Joyita de Amelia
+    </h1>
+    <h4>Joyería hecha a mano</h4>
+  </div>
+  <div class="row">
+    <div class="card col-sm-12 col-md-3 mb-4" style="width: 18rem;">
+      <img src="assets/imagenes/Capa 1.png" class="card-img-top" alt="Collar Hex">
+      <div class="card-body">
+        <h5 class="card-title">Collar Hex</h5>
+        <p class="card-text">Plata 950 & resina.</p>
+        <a href="#" class="btn btn-secondary">Comprar aquí</a>
+      </div>
+    </div>
+    <div class="card col-sm-12 col-md-3 mb-4" style="width: 18rem;">
+      <img src="assets/imagenes/Capa 2.png" class="card-img-top" alt="Joya2">
+      <div class="card-body">
+        <h5 class="card-title">Anillos Luna</h5>
+        <p class="card-text">Plata 950 & Piedra Luna</p>
+        <a href="#" class="btn btn-secondary">Comprar aquí</a>
+      </div>
+    </div>
+    <div class="card col-sm-12 col-md-3 mb-4" style="width: 18rem;">
+      <img src="assets/imagenes/Capa generativa 1-1.png" class="card-img-top" alt="Joya3">
+      <div class="card-body">
+        <h5 class="card-title">Esclava Cristal</h5>
+        <p class="card-text">Plata 950 & Cuarzo Cristal</p>
+        <a href="#" class="btn btn-secondary">Comprar aquí</a>
+      </div>
+    </div>
+  </div>
+  <div class="row mt-4">
+    <div class="card col-sm-12 col-md-3 mb-4" style="width: 18rem;">
+      <img src="assets/imagenes/Capa generativa 1.png" class="card-img-top" alt="Joya4">
+      <div class="card-body">
+        <h5 class="card-title">Esmeralda Clásica</h5>
+        <p class="card-text">Plata 950 & Esmeralda</p>
+        <a href="#" class="btn btn-secondary">Comprar aquí</a>
+      </div>
+    </div>
+    <div class="card col-sm-12 col-md-3 mb-4" style="width: 18rem;">
+      <img src="assets/imagenes/joyitadeamelia2.png" class="card-img-top" alt="Joya5">
+      <div class="card-body">
+        <h5 class="card-title">Trío Swarovski</h5>
+        <p class="card-text">Plata 950 & Swarovski</p>
+        <a href="#" class="btn btn-secondary">Comprar aquí</a>
+      </div>
+    </div>
+    <div class="card col-sm-12 col-md-3 mb-4" style="width: 18rem;">
+      <img src="assets/imagenes/joyitadeamelia3.png" class="card-img-top" alt="Joya6">
+      <div class="card-body">
+        <h5 class="card-title">Tupido Blue</h5>
+        <p class="card-text">Plata 950 & Labradorita</p>
+        <a href="#" class="btn btn-secondary">Comprar aquí</a>
+      </div>
+    </div>
+  </div>
+
+
+
+  <div class="footer container-fluid row mt-3">
+    <div class="col-sm-0 ">
+    </div>
+    <div class="container col-sm-12">
+      <h3 class="titulo-card">¿Quieres un producto a pedido?</h3>
+      <h3 class="lead">¡Escribe aquí tu idea y nos contactaremos contigo!</h3>
+      <form action="/action_page.php">
+        <div class=" m-3">
+          <label for="email" class="form-label">Email:</label>
+          <input type="email" class="form-control" id="email" placeholder="Tu email" name="ingresar email">
+        </div>
+        <div class="m-2">
+          <label for="comment">Mensaje:</label>
+          <textarea class="form-control" rows="4" id="comment" placeholder="Tu mensaje" name="texto aquí"></textarea>
+
+          <button class="m-2" type="submit" class="btn btn-success">Enviar</button>
+      </form>
+    </div>
+  </div>
+  </footer>
+
+</body>
+
+</html>
